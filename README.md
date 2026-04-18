@@ -71,9 +71,9 @@ PIR Sensor → ESP32 → Image Simulation → Telegram Alert → User
 
 ## 📸 Project Output
 
-![Output](images/Screenshot%202026-04-15%20004038.png)
-
 ![Output](images/Screenshot%202026-04-18%20024446.png)
+
+![Output](images/Screenshot%202026-04-15%20004038.png)
 
 ![Output](images/WhatsApp%20Image%202026-04-15%20at%2000.52.32.jpeg)
 
