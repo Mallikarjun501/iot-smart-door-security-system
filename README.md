@@ -79,6 +79,53 @@ PIR Sensor → ESP32 → Image Simulation → Telegram Alert → User
 
 ---
 
+## ▶️ How to Run / Simulate the Project
+
+This project is built using the Wokwi simulator. Follow these steps to run it:
+
+### 🔹 Method 1: Direct Online Simulation (Recommended)
+
+1. Open Wokwi: https://wokwi.com
+2. Click **“New Project” → ESP32**
+3. Replace the default code with `sketch.ino` from this repository
+4. Replace the circuit with `diagram.json` from this repository
+5. Click **▶️ Run Simulation**
+
+---
+
+### 🔹 Method 2: Quick Import (Best Way)
+
+1. Open: https://wokwi.com/projects/new/esp32
+2. Upload:
+
+   * `sketch.ino`
+   * `diagram.json`
+3. Run simulation
+
+---
+
+### 🔹 How to Trigger Motion
+
+* Click on the PIR sensor in the simulator
+* Toggle it to HIGH (motion detected)
+
+---
+
+### 🔹 Expected Output
+
+* Serial Monitor shows **“Intrusion Detected”**
+* LED turns ON
+* Telegram alert is sent to your device
+
+---
+
+### ⚠️ Note
+
+* Make sure to update **Telegram Bot Token and Chat ID** in the code before running
+* Internet connection is required for Telegram alerts
+
+---
+
 ## 🔐 Cybersecurity Features
 
 * **HTTPS Communication** – Ensures encrypted data transfer
